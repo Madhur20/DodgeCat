@@ -7,28 +7,40 @@ background-size: cover;
 
 .info
 {
-    height: 8vh;
+    height: 17vh;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:static;
 }
 
-.info>p
+
+.p1
 {
     position: absolute;
     margin: 0px;
     top: -0.5%;
-    color: red;
-    font-size:3.8vw;
-    font-family: Arial;
-
+    color: black;
+    font-size:2.8vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+.p2
+{
+    position: absolute;
+    margin: 0px;
+    color: black;
+    font-size:1.8vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .info>p>span
 {
-    color: LightGreen;
+    color: purple;
 }
 
 .game-window
 {
-    border: 10px Solid Red;
+    border: 10px Solid black;
     height: 89vh
 }
 

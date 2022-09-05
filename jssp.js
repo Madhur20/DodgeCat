@@ -2,7 +2,7 @@ var obj = {}; //obj with all keypress functions
 
 obj.reset = function()
 {
-    alert(document.querySelector("#name").innerHTML + ", sorry! Tom caught Jerry!")
+    alert("Oops! " + document.querySelector("#name").innerHTML + ", Jerry was caught!")
     for(i=0;i<robots.length;i++)
     {
         robots[i].style.top = 9+"vh"
